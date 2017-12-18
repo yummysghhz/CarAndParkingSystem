@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>CarOrderServlet</servlet-name>
+        <servlet-class>web.servlet.CarOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarOrderServlet</servlet-name>
+        <url-pattern>/CarOrderServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ParkingSpaceOrderServlet</servlet-name>
+        <servlet-class>web.servlet.ParkingSpaceOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ParkingSpaceOrderServlet</servlet-name>
+        <url-pattern>/ParkingSpaceOrderServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DemandServlet</servlet-name>
+        <servlet-class>web.servlet.DemandServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DemandServlet</servlet-name>
+        <url-pattern>/DemandServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ParkingLot</servlet-name>
+        <servlet-class>web.servlet.ParkingLot</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ParkingLot</servlet-name>
+        <url-pattern>/ParkingLot</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>web.servlet.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/UserServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PayServlet</servlet-name>
+        <servlet-class>web.servlet.PayServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PayServlet</servlet-name>
+        <url-pattern>/PayServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
